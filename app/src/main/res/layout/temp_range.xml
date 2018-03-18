@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dip"
+    android:layout_height="80dip"
+    android:id="@+id/rangelayout"
+    android:gravity="center"
+    android:background="#87CEEB"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        >
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="最低温度"
+        android:id="@+id/maxtemp"/>
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

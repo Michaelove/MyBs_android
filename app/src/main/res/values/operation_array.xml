@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operation">
+        <item>调整温度</item>
+        <item>调整范围</item>
+    </string-array>
+</resources>
